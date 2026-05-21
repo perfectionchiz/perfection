@@ -418,7 +418,7 @@ export default function About() {
             <div className="w-full aspect-[9/16] bg-foreground/[0.03] overflow-hidden relative border border-foreground/10 mb-4 rounded-xs">
               <div className="absolute inset-0 bg-foreground/[0.02] dark:bg-transparent z-10 pointer-events-none transition-opacity duration-500 group-hover:opacity-0" />
               <video
-                src="/assets/videos/casual-11.mp4"
+                src="/assets/videos/benard.mp4"
                 autoPlay
                 loop
                 muted
@@ -440,7 +440,7 @@ export default function About() {
             <div className="w-full aspect-[9/16] bg-foreground/[0.03] overflow-hidden relative border border-foreground/10 mb-4 rounded-xs">
               <div className="absolute inset-0 bg-foreground/[0.02] dark:bg-transparent z-10 pointer-events-none transition-opacity duration-500 group-hover:opacity-0" />
               <video
-                src="/assets/videos/casual-12.mp4"
+                src="/assets/videos/azach.mp4"
                 autoPlay
                 loop
                 muted
@@ -665,7 +665,7 @@ export default function About() {
             {/* Sharpened row line dividing tracks slightly */}
             <div className="flex justify-between border-b border-foreground/10 dark:border-foreground/5 pb-2">
               <span>Height // Build</span>
-              <span className="font-mono">186cm // Linear</span>
+              <span className="font-mono">183cm // Linear</span>
             </div>
             <div className="flex justify-between border-b border-foreground/10 dark:border-foreground/5 pb-2">
               <span>Core Matrix</span>
@@ -673,7 +673,7 @@ export default function About() {
             </div>
             <div className="flex justify-between pb-2">
               <span>Hair // Eyes</span>
-              <span className="font-mono">Black // Brown</span>
+              <span className="font-mono">Black // Black</span>
             </div>
           </div>
         </div>
