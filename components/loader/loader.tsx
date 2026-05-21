@@ -78,12 +78,12 @@ export default function Loader({ onComplete }: LoaderProps) {
         </div>
         
         <div className="relative overflow-hidden h-[120px] sm:h-[160px] md:h-[200px] flex items-end">
-          <h1 
-            ref={counterRef} 
-            className="loader-text-element text-[120px] sm:text-[160px] md:text-[220px] font-black italic text-white tracking-tighter leading-[75%] translate-x-4 md:translate-x-8"
-          >
-            {progress.toString().padStart(3, "0")}
-          </h1>
+         <h1 
+  ref={counterRef} 
+  className="loader-text-element text-[120px] sm:text-[160px] md:text-[220px] font-black italic text-white tracking-tighter leading-none translate-x-4 md:translate-x-8"
+>
+  {progress.toString().padStart(3, "0")}
+</h1>
         </div>
 
         <div className="loader-text-element text-[9px] font-mono text-white/40 uppercase tracking-[0.2em]">

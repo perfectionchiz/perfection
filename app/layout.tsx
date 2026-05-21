@@ -4,18 +4,36 @@ import Menu from "@/components/navbar/menu";
 import { saansTrial } from "@/lib/font/saanTrial";
 import { ThemeProvider } from "@/components/theme-provider";
 
+
 export const metadata: Metadata = {
   title: "Perfection // Creative Portfolio",
   description: "Editorial, movement, and campaign photography by Perfection. Based in Lagos // Remote.",
   keywords: ["Photography", "Editorial Campaign", "Movement Direction", "Creative Portfolio", "Lagos Photographer"],
   authors: [{ name: "Perfection" }],
+  metadataBase: new URL('https://perfection-chizuruoke.netlify.app'),
   openGraph: {
     title: "Perfection // Creative Portfolio",
     description: "Editorial, movement, and campaign photography by Perfection.",
-    url: "https://yourdomain.com", 
+    url: "https://perfection-chizuruoke.netlify.app", 
     siteName: "Perfection Portfolio",
     locale: "en_NG",
     type: "website",
+    images: [
+      {
+        url: '/android-chrome-512x512.png', 
+        width: 512,
+        height: 512,
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
 };
 export default function RootLayout({

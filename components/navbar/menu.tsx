@@ -264,7 +264,7 @@ const Menu = () => {
           <div className="menu-info flex">
             <div className="menu-info-col flex flex-1 flex-col justify-end text-[11px] uppercase font-bold tracking-wider space-y-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/perfection_chizuruoke/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 hover:opacity-60 transition-opacity w-max"
@@ -286,7 +286,7 @@ const Menu = () => {
               </a>
 
               <a
-                href="https://pinterest.com"
+                href="https://pin.it/3OtvO5KRL"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 hover:opacity-60 transition-opacity w-max"
@@ -307,7 +307,7 @@ const Menu = () => {
               </a>
 
               <a
-                href="https://tiktok.com"
+                href="https://www.tiktok.com/@perfection_chizuruoke?_r=1&_t=ZS-96Y84aCawjc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-1 hover:opacity-60 transition-opacity w-max"
@@ -329,9 +329,9 @@ const Menu = () => {
             </div>
 
             <div className="menu-info-col flex-1 flex flex-col justify-end text-right font-mono text-[11px] font-bold opacity-80 space-y-1">
-              <p className="hover:opacity-60 cursor-pointer transition-opacity">
+              <a href="mailto:perfectionchizuruoke@gmail.com" className="hover:opacity-60 cursor-pointer transition-opacity">
                 perfectionchizuruoke@gmail.com
-              </p>
+              </a>
               <p className="hover:opacity-60 cursor-pointer transition-opacity">
                 {formattedNumber}
               </p>
