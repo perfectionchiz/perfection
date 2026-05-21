@@ -10,11 +10,9 @@ export const metadata: Metadata = {
   description: "Editorial, movement, and campaign photography by Perfection. Based in Lagos // Remote.",
   keywords: ["Photography", "Editorial Campaign", "Movement Direction", "Creative Portfolio", "Lagos Photographer"],
   authors: [{ name: "Perfection" }],
-  metadataBase: new URL('https://perfection-chizuruoke.netlify.app'),
   openGraph: {
     title: "Perfection // Creative Portfolio",
     description: "Editorial, movement, and campaign photography by Perfection.",
-    url: "https://perfection-chizuruoke.netlify.app", 
     siteName: "Perfection Portfolio",
     locale: "en_NG",
     type: "website",
